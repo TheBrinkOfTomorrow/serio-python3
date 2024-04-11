@@ -27,7 +27,7 @@ Install pyserial module:  (note: not 'serial' module - this doesn't work)
 pip3 install pyserial
 ```
 
-Transfer file to targe:  (assuming target device is on /dev/ttyUSB0)
+Transfer file to target:  (assuming target device is on /dev/ttyUSB0)
 ```
 python3 serio.py -e </path/to/source/filename> -d </path/to/target/filename> /dev/ttyUSB0
 ```
